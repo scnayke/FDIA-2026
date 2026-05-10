@@ -1,0 +1,1367 @@
+{
+ "config": {
+  "case": "case33bw",
+  "seeds": [
+   42
+  ],
+  "rounds": 15,
+  "num_utilities": 10,
+  "f_values": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "attacks": [
+   "signflip",
+   "unbounded"
+  ]
+ },
+ "runs": [
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 0,
+   "method": "FedAvg",
+   "aggregator": "fedavg",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5653533458411507,
+    "precision": 0.4860215053763441,
+    "recall": 0.6756352765321375,
+    "auc": 0.9158556449340644,
+    "ap": 0.5786002504533914,
+    "threshold": 0.75
+   },
+   "byz_ids": [],
+   "wall_s": 89.32081102199993,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 0,
+   "method": "Multi-Krum",
+   "aggregator": "multikrum",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5716535433070866,
+    "precision": 0.6039933444259568,
+    "recall": 0.5426008968609866,
+    "auc": 0.9157819022420342,
+    "ap": 0.5846118053995017,
+    "threshold": 0.85
+   },
+   "byz_ids": [],
+   "wall_s": 88.711239062,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 0,
+   "method": "MK + ZKP",
+   "aggregator": "multikrum",
+   "use_zk": true,
+   "final_metric": {
+    "f1": 0.5716535433070866,
+    "precision": 0.6039933444259568,
+    "recall": 0.5426008968609866,
+    "auc": 0.9157819022420342,
+    "ap": 0.5846118053995017,
+    "threshold": 0.85
+   },
+   "byz_ids": [],
+   "wall_s": 89.35870404700006,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 1,
+   "method": "FedAvg",
+   "aggregator": "fedavg",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5607235142118863,
+    "precision": 0.4937428896473265,
+    "recall": 0.648729446935725,
+    "auc": 0.9089634636508666,
+    "ap": 0.5746026842407224,
+    "threshold": 0.75
+   },
+   "byz_ids": [
+    0
+   ],
+   "wall_s": 89.63869143799991,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 1,
+   "method": "Multi-Krum",
+   "aggregator": "multikrum",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.568870523415978,
+    "precision": 0.5274584929757343,
+    "recall": 0.617339312406577,
+    "auc": 0.9139911772981348,
+    "ap": 0.579531289416898,
+    "threshold": 0.7999999999999999
+   },
+   "byz_ids": [
+    0
+   ],
+   "wall_s": 89.70725478400004,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 1,
+   "method": "MK + ZKP",
+   "aggregator": "multikrum",
+   "use_zk": true,
+   "final_metric": {
+    "f1": 0.568870523415978,
+    "precision": 0.5274584929757343,
+    "recall": 0.617339312406577,
+    "auc": 0.9139911772981348,
+    "ap": 0.579531289416898,
+    "threshold": 0.7999999999999999
+   },
+   "byz_ids": [
+    0
+   ],
+   "wall_s": 89.63820301100009,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 2,
+   "method": "FedAvg",
+   "aggregator": "fedavg",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5281638624725676,
+    "precision": 0.5171919770773639,
+    "recall": 0.5396113602391629,
+    "auc": 0.8966692358305093,
+    "ap": 0.5130500144461032,
+    "threshold": 0.7999999999999999
+   },
+   "byz_ids": [
+    0,
+    3
+   ],
+   "wall_s": 93.43303779799999,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 2,
+   "method": "Multi-Krum",
+   "aggregator": "multikrum",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.563013698630137,
+    "precision": 0.5195954487989887,
+    "recall": 0.6143497757847534,
+    "auc": 0.9091426938836351,
+    "ap": 0.5685815656586208,
+    "threshold": 0.7999999999999999
+   },
+   "byz_ids": [
+    0,
+    3
+   ],
+   "wall_s": 91.74682438100012,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 2,
+   "method": "MK + ZKP",
+   "aggregator": "multikrum",
+   "use_zk": true,
+   "final_metric": {
+    "f1": 0.563013698630137,
+    "precision": 0.5195954487989887,
+    "recall": 0.6143497757847534,
+    "auc": 0.9091426938836351,
+    "ap": 0.5685815656586208,
+    "threshold": 0.7999999999999999
+   },
+   "byz_ids": [
+    0,
+    3
+   ],
+   "wall_s": 85.65084927600014,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 3,
+   "method": "FedAvg",
+   "aggregator": "fedavg",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.48988439306358383,
+    "precision": 0.47412587412587415,
+    "recall": 0.5067264573991032,
+    "auc": 0.871596424780778,
+    "ap": 0.4581837965817174,
+    "threshold": 0.7999999999999999
+   },
+   "byz_ids": [
+    0,
+    3,
+    8
+   ],
+   "wall_s": 89.52842871000007,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 3,
+   "method": "Multi-Krum",
+   "aggregator": "multikrum",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5518118245390973,
+    "precision": 0.48008849557522126,
+    "recall": 0.648729446935725,
+    "auc": 0.902399772541258,
+    "ap": 0.5561643204176521,
+    "threshold": 0.75
+   },
+   "byz_ids": [
+    0,
+    3,
+    8
+   ],
+   "wall_s": 88.08088195799996,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 3,
+   "method": "MK + ZKP",
+   "aggregator": "multikrum",
+   "use_zk": true,
+   "final_metric": {
+    "f1": 0.5518118245390973,
+    "precision": 0.48008849557522126,
+    "recall": 0.648729446935725,
+    "auc": 0.902399772541258,
+    "ap": 0.5561643204176521,
+    "threshold": 0.75
+   },
+   "byz_ids": [
+    0,
+    3,
+    8
+   ],
+   "wall_s": 87.60620959199991,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 4,
+   "method": "FedAvg",
+   "aggregator": "fedavg",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.39589568191534846,
+    "precision": 0.2772455089820359,
+    "recall": 0.6920777279521674,
+    "auc": 0.8209582645939055,
+    "ap": 0.3587510873798852,
+    "threshold": 0.35
+   },
+   "byz_ids": [
+    0,
+    2,
+    5,
+    7
+   ],
+   "wall_s": 87.34374098099988,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 4,
+   "method": "Multi-Krum",
+   "aggregator": "multikrum",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5653104925053534,
+    "precision": 0.5409836065573771,
+    "recall": 0.5919282511210763,
+    "auc": 0.904945472800087,
+    "ap": 0.5752404817755264,
+    "threshold": 0.75
+   },
+   "byz_ids": [
+    0,
+    2,
+    5,
+    7
+   ],
+   "wall_s": 87.47300497899982,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "signflip",
+   "f": 4,
+   "method": "MK + ZKP",
+   "aggregator": "multikrum",
+   "use_zk": true,
+   "final_metric": {
+    "f1": 0.5653104925053534,
+    "precision": 0.5409836065573771,
+    "recall": 0.5919282511210763,
+    "auc": 0.904945472800087,
+    "ap": 0.5752404817755264,
+    "threshold": 0.75
+   },
+   "byz_ids": [
+    0,
+    2,
+    5,
+    7
+   ],
+   "wall_s": 87.61490421600001,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 0,
+   "method": "FedAvg",
+   "aggregator": "fedavg",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5653533458411507,
+    "precision": 0.4860215053763441,
+    "recall": 0.6756352765321375,
+    "auc": 0.9158556449340644,
+    "ap": 0.5786002504533914,
+    "threshold": 0.75
+   },
+   "byz_ids": [],
+   "wall_s": 87.4808817459998,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 0,
+   "method": "Multi-Krum",
+   "aggregator": "multikrum",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5716535433070866,
+    "precision": 0.6039933444259568,
+    "recall": 0.5426008968609866,
+    "auc": 0.9157819022420342,
+    "ap": 0.5846118053995017,
+    "threshold": 0.85
+   },
+   "byz_ids": [],
+   "wall_s": 87.71622330500031,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 0,
+   "method": "MK + ZKP",
+   "aggregator": "multikrum",
+   "use_zk": true,
+   "final_metric": {
+    "f1": 0.5716535433070866,
+    "precision": 0.6039933444259568,
+    "recall": 0.5426008968609866,
+    "auc": 0.9157819022420342,
+    "ap": 0.5846118053995017,
+    "threshold": 0.85
+   },
+   "byz_ids": [],
+   "wall_s": 87.11909888900027,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 1,
+   "method": "FedAvg",
+   "aggregator": "fedavg",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5476923076923077,
+    "precision": 0.46548117154811713,
+    "recall": 0.6651718983557549,
+    "auc": 0.914216151660719,
+    "ap": 0.5625913186148885,
+    "threshold": 0.75
+   },
+   "byz_ids": [
+    0
+   ],
+   "wall_s": 114.39306343099999,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 1,
+   "method": "Multi-Krum",
+   "aggregator": "multikrum",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.568870523415978,
+    "precision": 0.5274584929757343,
+    "recall": 0.617339312406577,
+    "auc": 0.9139911772981348,
+    "ap": 0.579531289416898,
+    "threshold": 0.7999999999999999
+   },
+   "byz_ids": [
+    0
+   ],
+   "wall_s": 114.45573993400001,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 1,
+   "method": "MK + ZKP",
+   "aggregator": "multikrum",
+   "use_zk": true,
+   "final_metric": {
+    "f1": 0.5698412698412698,
+    "precision": 0.6074450084602369,
+    "recall": 0.5366218236173393,
+    "auc": 0.9135327501351128,
+    "ap": 0.5785893651760965,
+    "threshold": 0.85
+   },
+   "byz_ids": [
+    0
+   ],
+   "wall_s": 113.482638968,
+   "rejected_per_round": [
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ],
+    [
+     0
+    ]
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 2,
+   "method": "FedAvg",
+   "aggregator": "fedavg",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.2277097902097902,
+    "precision": 0.13335039672382903,
+    "recall": 0.7787742899850523,
+    "auc": 0.6857064776645415,
+    "ap": 0.17967548465405625,
+    "threshold": 0.7999999999999999
+   },
+   "byz_ids": [
+    0,
+    3
+   ],
+   "wall_s": 113.72248578100005,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 2,
+   "method": "Multi-Krum",
+   "aggregator": "multikrum",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5595984943538268,
+    "precision": 0.4821621621621622,
+    "recall": 0.6666666666666666,
+    "auc": 0.9129035711771761,
+    "ap": 0.5749664007547847,
+    "threshold": 0.75
+   },
+   "byz_ids": [
+    0,
+    3
+   ],
+   "wall_s": 113.50552369399998,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 2,
+   "method": "MK + ZKP",
+   "aggregator": "multikrum",
+   "use_zk": true,
+   "final_metric": {
+    "f1": 0.5646687697160884,
+    "precision": 0.5976627712854758,
+    "recall": 0.5351270553064275,
+    "auc": 0.9117737700399217,
+    "ap": 0.5762131623302694,
+    "threshold": 0.85
+   },
+   "byz_ids": [
+    0,
+    3
+   ],
+   "wall_s": 113.754454216,
+   "rejected_per_round": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 3,
+   "method": "FedAvg",
+   "aggregator": "fedavg",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "auc": 0.5,
+    "ap": 0.0,
+    "threshold": 0.05
+   },
+   "byz_ids": [
+    0,
+    3,
+    8
+   ],
+   "wall_s": 111.3311685079999,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 3,
+   "method": "Multi-Krum",
+   "aggregator": "multikrum",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5592476489028213,
+    "precision": 0.4816414686825054,
+    "recall": 0.6666666666666666,
+    "auc": 0.9130776749126376,
+    "ap": 0.5726382220990848,
+    "threshold": 0.75
+   },
+   "byz_ids": [
+    0,
+    3,
+    8
+   ],
+   "wall_s": 113.86276872100007,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 3,
+   "method": "MK + ZKP",
+   "aggregator": "multikrum",
+   "use_zk": true,
+   "final_metric": {
+    "f1": 0.5634758995247794,
+    "precision": 0.5161691542288557,
+    "recall": 0.6203288490284006,
+    "auc": 0.9109251375626543,
+    "ap": 0.5722259263993553,
+    "threshold": 0.7999999999999999
+   },
+   "byz_ids": [
+    0,
+    3,
+    8
+   ],
+   "wall_s": 113.70711885799994,
+   "rejected_per_round": [
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ],
+    [
+     0,
+     3,
+     8
+    ]
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 4,
+   "method": "FedAvg",
+   "aggregator": "fedavg",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "auc": 0.5,
+    "ap": 0.0,
+    "threshold": 0.05
+   },
+   "byz_ids": [
+    0,
+    2,
+    5,
+    7
+   ],
+   "wall_s": 110.55057196300004,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 4,
+   "method": "Multi-Krum",
+   "aggregator": "multikrum",
+   "use_zk": false,
+   "final_metric": {
+    "f1": 0.5806906272022551,
+    "precision": 0.5493333333333333,
+    "recall": 0.6158445440956651,
+    "auc": 0.9173614549314835,
+    "ap": 0.5946171400978585,
+    "threshold": 0.7999999999999999
+   },
+   "byz_ids": [
+    0,
+    2,
+    5,
+    7
+   ],
+   "wall_s": 112.55411428999992,
+   "rejected_per_round": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+   ]
+  },
+  {
+   "seed": 42,
+   "attack": "unbounded",
+   "f": 4,
+   "method": "MK + ZKP",
+   "aggregator": "multikrum",
+   "use_zk": true,
+   "final_metric": {
+    "f1": 0.5806962025316456,
+    "precision": 0.6168067226890757,
+    "recall": 0.5485799701046338,
+    "auc": 0.9160398044911666,
+    "ap": 0.5920207517471758,
+    "threshold": 0.85
+   },
+   "byz_ids": [
+    0,
+    2,
+    5,
+    7
+   ],
+   "wall_s": 115.22355106999998,
+   "rejected_per_round": [
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ],
+    [
+     0,
+     2,
+     5,
+     7
+    ]
+   ]
+  }
+ ]
+}

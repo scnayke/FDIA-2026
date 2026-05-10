@@ -1,0 +1,18 @@
+{
+ "rounds": 20,
+ "num_utilities": 10,
+ "num_params": 2577,
+ "proof_size_bytes": 1056,
+ "comm_bytes_per_client_per_round": 11396,
+ "per_round_avg_ms": {
+  "local_train_s": 7825.924124349945,
+  "agg_s": 0.859419100015657,
+  "zk_prove_s_sim": 16705.85,
+  "zk_verify_s_sim": 121.59649999999992,
+  "anchor_s": 0.5266341500146154
+ },
+ "detection_inference_ms": {
+  "case33bw": 1.2923239799965813,
+  "case118": 4.4049812399953225
+ }
+}
